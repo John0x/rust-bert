@@ -54,7 +54,7 @@ features = ["doc-only"]
 
 [dependencies]
 rust_tokenizers = "~6.0.0"
-tch = "~0.2.1"
+tch = { git = "https://github.com/LaurentMazare/tch-rs.git" }
 serde_json = "1.0.59"
 serde = { version = "1.0.117", features = ["derive"] }
 dirs = "3.0.1"
@@ -69,4 +69,4 @@ thiserror = "1.0.21"
 anyhow = "1.0.33"
 csv = "1.1.3"
 criterion = "0.3.3"
-torch-sys = "0.2.1"
+torch-sys = { git = "https://github.com/LaurentMazare/tch-rs.git" }
